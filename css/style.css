@@ -76,10 +76,15 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
+.box-wrap-works {
+  background: #fff;
+}
+
 #fh5co-header {
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
   padding-top: 40px;
-  padding-bottom: 0;
-  margin-bottom: 20px;
 }
 @media screen and (max-width: 992px) {
   #fh5co-header {
@@ -223,6 +228,37 @@ h1, h2, h3, h4, h5, h6 {
 }
 #services .service p {
   font-size: 18px;
+}
+
+#work-details {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#work-details .single-item {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+}
+
+#work-details .single-item .image-popup {
+  position: absolute;
+  top: 0px;
+  bottom: 20px;
+  left: 0px;
+}
+
+#work-details .single-item .image-popup .work-title span {
+  color: black;
+  letter-spacing: 3px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 #work .fh5co-grid {
