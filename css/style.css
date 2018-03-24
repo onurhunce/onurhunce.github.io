@@ -19,13 +19,6 @@ body {
   font-weight: 300;
 }
 
-@media screen and (min-height: 737px) {
-  body {
-    overflow-y: hidden;
-  }
-}
-
-
 a {
   color: #52d3aa;
   -webkit-transition: 0.5s;
@@ -81,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-header {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 40px;
@@ -122,9 +115,9 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 #fh5co-header .nav li {
-  font-size: 20px;
+  font-size: 18px;
   display: inline-block;
-  margin-left: 50px;
+  margin-left: 40px;
 }
 @media screen and (max-width: 480px) {
   #fh5co-header .nav li {
@@ -245,6 +238,19 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 20px;
   position: relative;
 }
+
+#work-details .photo-details-item {
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+}
+
 
 #work-details .single-item .image-popup {
   position: absolute;
