@@ -97,6 +97,11 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 40px;
   padding-top: 40px;
 }
+#sections-space {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 @media screen and (max-width: 992px) {
   #fh5co-header {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
